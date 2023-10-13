@@ -39,14 +39,15 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'u', 's']}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          Have a question, need assistance, or want to discuss your
+          IT needs? We're here to help! Feel free to reach out to us
+          using the contact information below. Our dedicated team
+          is ready to assist you in any way we can.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -85,20 +86,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+        Kinfra Hi-Tech Park,
           <br />
-          Serbia,
+          Kochi, 
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Kerala 683503 <br />
+          India <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>ping@buildpatch.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[10.0551366, 76.3545919]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[10.0551366, 76.3545919]}>
+              <Popup>We live here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
